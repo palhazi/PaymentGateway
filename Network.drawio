@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" modified="2023-05-16T12:30:24.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="7i4jNVSqzwUNHn1eDum2" version="21.3.2" type="device">
+  <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
+    <mxGraphModel dx="1550" dy="1403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="6a7d8f32e03d9370-61" value="Generali hálózata" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=14;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="840" y="98" width="640" height="1082" as="geometry" />
+        </mxCell>
+        <mxCell id="6a7d8f32e03d9370-58" value="Internet" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=14;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="480" y="800" width="330" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="6a7d8f32e03d9370-57" value="BigFish hálózata" style="whiteSpace=wrap;html=1;fillColor=#FFD470;gradientColor=none;fontSize=14;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="480" y="98" width="330" height="682" as="geometry" />
+        </mxCell>
+        <mxCell id="6a7d8f32e03d9370-1" value="Client" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.laptop_2;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="571.9999999999999" y="890" width="116" height="86.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6a7d8f32e03d9370-6" value="Client" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.pda;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="630" y="1050" width="30" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="6a7d8f32e03d9370-18" value="Tűzfal" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.firewall;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="900" y="290" width="75" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-1" value="Generali OPM" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;" vertex="1" parent="1">
+          <mxGeometry x="1281.75" y="670" width="76.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-2" value="PaymentGateway" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;" vertex="1" parent="1">
+          <mxGeometry x="611.5" y="347" width="76.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-5" value="Netscaler" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.netscaler_gateway;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="383" width="100" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-13" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.certificate;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="297.5" width="63" height="85.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-15" value="IBM Message Bróker" style="strokeWidth=2;strokeColor=#000000;dashed=0;align=center;html=1;fontSize=8;shape=mxgraph.eip.messageChannel;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="540" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-16" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=2;rounded=0;endArrow=block;startArrow=block;startSize=10;endSize=10;dashed=0;html=1;strokeColor=#808080;" edge="1" target="zZ-3598ReplSHr628_LE-15" parent="1" source="zZ-3598ReplSHr628_LE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="620" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-17" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=2;rounded=0;endArrow=block;startArrow=block;startSize=10;endSize=10;dashed=0;html=1;strokeColor=#808080;" edge="1" target="zZ-3598ReplSHr628_LE-15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-18" value="Üzenet átirányítása az alkalmazáshoz" style="edgeStyle=elbowEdgeStyle;strokeWidth=2;rounded=0;endArrow=block;startArrow=block;startSize=10;endSize=10;dashed=0;html=1;strokeColor=#808080;" edge="1" target="zZ-3598ReplSHr628_LE-15" parent="1" source="zZ-3598ReplSHr628_LE-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-19" value="" style="edgeStyle=elbowEdgeStyle;strokeWidth=2;rounded=0;endArrow=block;startArrow=block;startSize=10;endSize=10;dashed=0;html=1;strokeColor=#808080;" edge="1" target="zZ-3598ReplSHr628_LE-15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-28" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;entryX=-0.032;entryY=0.439;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zZ-3598ReplSHr628_LE-2" target="6a7d8f32e03d9370-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="688" y="390" as="sourcePoint" />
+            <mxPoint x="823" y="624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-33" value="IP FILTER" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zZ-3598ReplSHr628_LE-28">
+          <mxGeometry x="0.1832" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-29" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;entryX=0;entryY=0.46;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zZ-3598ReplSHr628_LE-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="344" as="sourcePoint" />
+            <mxPoint x="425" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-34" value="Tanusítvány ellenőrzés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zZ-3598ReplSHr628_LE-29">
+          <mxGeometry x="0.2265" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-30" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;exitX=1;exitY=0.46;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zZ-3598ReplSHr628_LE-13" target="zZ-3598ReplSHr628_LE-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1031" y="644" as="sourcePoint" />
+            <mxPoint x="1166" y="878" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-31" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;exitX=1.021;exitY=0.509;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6a7d8f32e03d9370-1" target="zZ-3598ReplSHr628_LE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1041" y="654" as="sourcePoint" />
+            <mxPoint x="1176" y="888" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZ-3598ReplSHr628_LE-32" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;exitX=0.92;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6a7d8f32e03d9370-6" target="zZ-3598ReplSHr628_LE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="780" as="sourcePoint" />
+            <mxPoint x="445" y="1014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
